@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bilan multicritère pour les organisations · Clément Dalisson</title>
+<meta name="description" content="Une calculatrice qui reprend la logique d'inventaire du Bilan Carbone® et restitue le résultat d'une organisation sur les 16 indicateurs EF 3.1.">
+<meta name="author" content="Clément Dalisson">
+<link rel="canonical" href="https://clementdalisson.github.io/projets/calculatrice-organisation.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bilan multicritère pour les organisations · Clément Dalisson">
+<meta property="og:description" content="Une calculatrice qui reprend la logique d'inventaire du Bilan Carbone® et restitue le résultat d'une organisation sur les 16 indicateurs EF 3.1.">
+<meta property="og:url" content="https://clementdalisson.github.io/projets/calculatrice-organisation.html">
+<meta property="og:locale" content="fr_FR">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../"><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="16.0" cy="16.0" r="15.0" fill="none" stroke="#1B1E23" stroke-width="1" opacity="0.35"/><line x1="16.0" y1="16.0" x2="16.0" y2="3.7" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="18.7" y2="9.4" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="22.9" y2="9.1" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="23.2" y2="13.0" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="27.0" y2="16.0" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="22.0" y2="18.5" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="22.4" y2="22.4" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="20.5" y2="26.8" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="16.0" y2="21.9" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="12.0" y2="25.6" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="10.5" y2="21.5" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="7.4" y2="19.6" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="9.5" y2="16.0" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="5.4" y2="11.6" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="10.3" y2="10.3" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/><line x1="16.0" y1="16.0" x2="12.1" y2="6.6" stroke="#1B1E23" stroke-width="1.4" stroke-linecap="round"/></svg><span>Clément Dalisson</span></a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="../#projets">Projets</a>
+      <a href="../#convictions">Convictions</a>
+      <a href="../#parcours">Parcours</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <header class="p-head">
+    <div class="wrap">
+      <p class="crumbs mono"><a href="../#projets">Projets</a> / 02</p>
+      <h1>Un bilan multicritère pour les organisations</h1>
+      <p class="lede">Le Bilan Carbone® a appris aux organisations à inventorier ce qu'elles consomment et achètent, puis à le traduire en impact. Cette calculatrice suit la même logique, mais le résultat ne tient plus en une ligne de CO₂e&nbsp;: il couvre les 16 indicateurs EF 3.1.</p>
+      <dl class="meta">
+        <div><dt>Statut</dt><dd>En ligne, avec compte utilisateur</dd></div>
+        <div><dt>Depuis</dt><dd>2026</dd></div>
+        <div><dt>Ce que j'ai fait</dt><dd>Méthode, données, conception, code</dd></div>
+        <div><dt>Voir</dt><dd><a href="https://clementdalisson.github.io/calculatrice-acv/#organisation">Ouvrir l'outil</a></dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="figure-wide">
+      <figure class="fig">
+        <div class="ui">
+          <div class="ui-bar"><i></i><i></i><i></i><span class="t">Calculatrice organisation · Saisie des données</span></div>
+          <div class="ui-body">
+            <div class="ui-tabs"><span>Énergie</span><span>Déplacements</span><span class="on">Informatique</span><span>Mobilier</span><span class="hide-sm">Bâtiment</span><span class="hide-sm">Mobilier</span><span class="hide-sm">+ 15</span></div>
+            <table>
+              <thead><tr><th>Élément</th><th class="hide-sm">Sous-famille</th><th>Unité</th><th>Quantité</th></tr></thead>
+              <tbody>
+                <tr><td>Ordinateur portable</td><td class="hide-sm">Postes de travail</td><td>unité</td><td><span class="x" style="--w:30px"></span></td></tr>
+                <tr><td>Écran d'ordinateur</td><td class="hide-sm">Postes de travail</td><td>unité</td><td><span class="x" style="--w:30px"></span></td></tr>
+                <tr><td>Ordinateur fixe (tour)</td><td class="hide-sm">Postes de travail</td><td>unité</td><td><span class="x" style="--w:18px"></span></td></tr>
+                <tr><td>Photocopieur multifonction</td><td class="hide-sm">Impression</td><td>unité</td><td><span class="x" style="--w:12px"></span></td></tr>
+                <tr><td>Tablette numérique</td><td class="hide-sm">Postes de travail</td><td>unité</td><td><span class="x" style="--w:12px"></span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <figcaption><b>Fig. 1</b> · Saisie des quantités, famille par famille. Quantités retirées.</figcaption>
+      </figure>
+    </div>
+
+    <section class="row">
+      <div class="label"><b>Le point de départ</b></div>
+      <div class="prose">
+        <p>L'ACV multicritère est bien installée pour les produits. Pour les organisations, la méthode existe aussi&nbsp;: la Commission européenne a publié l'OEF en 2021. Mais dans les faits, presque toutes les démarches s'arrêtent au carbone.</p>
+        <p>L'idée de cet outil est de montrer que passer d'un Bilan Carbone® à un bilan sur 16 indicateurs ne demande pas de tout reprendre. Les données à collecter sont les mêmes&nbsp;: des kWh, des kilomètres, des équipements achetés, des repas. C'est la lecture qui change.</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="label"><b>Ce que fait l'outil</b></div>
+      <div class="prose">
+        <ul>
+          <li>Un catalogue de 325 éléments, en une vingtaine de familles&nbsp;: énergie, déplacements, informatique, mobilier, bâtiment, chauffage et climatisation, alimentation, déchets, et d'autres.</li>
+          <li>Chaque élément a son unité (un kWh, un kilomètre, un ordinateur, un bureau) et ses 16 indicateurs, sur tout le cycle de vie.</li>
+          <li>L'organisation saisit ses quantités et obtient un score, sa répartition par catégorie de dommage, la contribution de chaque famille et le détail indicateur par indicateur.</li>
+          <li>Un résultat ramené par salarié, en score EF et en CO₂, situé face à une cible 2050.</li>
+          <li>Les sources des facteurs affichées avec le résultat, et un compte utilisateur pour enregistrer sa saisie.</li>
+        </ul>
+        <div class="fig-pair">
+          <figure class="fig" style="grid-column:1 / -1">
+            <div class="ui">
+              <div class="ui-bar"><i></i><i></i><i></i><span class="t">Analyse</span></div>
+              <div class="ui-body">
+                <div class="kpis">
+                  <div class="kpi"><span class="muted">Score total</span><span class="x"></span></div>
+                  <div class="kpi"><span class="muted">Par salarié</span><span class="x" style="--w:44px"></span></div>
+                  <div class="kpi"><span class="muted">CO₂ par salarié</span><span class="x" style="--w:40px"></span></div>
+                </div>
+                <p class="muted" style="margin-bottom:8px">Répartition par catégorie de dommage</p>
+                <div class="stack"><span class="c-climat" style="flex:41"></span><span class="c-eco" style="flex:23"></span><span class="c-sante" style="flex:15"></span><span class="c-res" style="flex:21"></span></div>
+                <div class="legend"><span><i class="c-climat"></i>Climat</span><span><i class="c-eco"></i>Écosystèmes</span><span><i class="c-sante"></i>Santé humaine</span><span><i class="c-res"></i>Ressources</span></div>
+                <p class="muted" style="margin:18px 0 8px">Contribution par famille</p>
+                <div class="ui-cats">
+                  <div class="ui-cat"><span>Informatique</span><div class="track"><div class="fill" style="width:82%;background:#2C5282"></div></div><span class="x"></span></div>
+                  <div class="ui-cat"><span>Déplacements</span><div class="track"><div class="fill" style="width:61%;background:#2C5282"></div></div><span class="x"></span></div>
+                  <div class="ui-cat"><span>Énergie</span><div class="track"><div class="fill" style="width:44%;background:#2C5282"></div></div><span class="x"></span></div>
+                  <div class="ui-cat"><span>Alimentation</span><div class="track"><div class="fill" style="width:30%;background:#2C5282"></div></div><span class="x"></span></div>
+                  <div class="ui-cat"><span>Bâtiment</span><div class="track"><div class="fill" style="width:22%;background:#2C5282"></div></div><span class="x"></span></div>
+                </div>
+              </div>
+            </div>
+            <figcaption><b>Fig. 2</b> · Restitution pour une organisation fictive. Valeurs retirées, proportions indicatives.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="label"><b>Choix de méthode</b></div>
+      <div class="prose">
+        <h3>Partir de ce que l'organisation sait déjà compter.</h3>
+        <p>Les entrées sont celles d'un Bilan Carbone®&nbsp;: des factures d'énergie, des kilomètres parcourus, un inventaire d'équipements. Ce qui change, c'est le résultat, pas la collecte. C'est la condition pour que l'outil serve à autre chose qu'à une démonstration.</p>
+        <h3>Reconstituer plutôt qu'approximer.</h3>
+        <p>Pour beaucoup d'équipements de bureau, il n'existe pas de donnée multicritère toute faite. Je les reconstitue à partir de leur composition&nbsp;: un bureau, c'est un panneau de particules, de l'acier et de la peinture, chacun avec sa masse. C'est la même démarche que pour le mobilier des boutiques chez LVMH, étendue à 16 indicateurs.</p>
+        <h3>Dire ce qui manque.</h3>
+        <p>Toutes les données ne couvrent pas les 16 indicateurs, en particulier pour les services. Les catégories santé et ressources peuvent alors être sous-estimées. La note de méthode le signale, avec la source et la fiabilité de chaque facteur.</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="label"><b>Limites</b></div>
+      <div class="prose">
+        <p>Le périmètre ne couvre pas encore les déplacements domicile-travail ni les matières premières propres à chaque métier. C'est un outil de premier niveau&nbsp;: il sert à ouvrir la discussion et à repérer les postes qui comptent, pas à remplacer un bilan réalisé avec les données de l'organisation.</p>
+      </div>
+    </section>
+
+    <nav class="next" aria-label="Projets">
+      <a href="calculatrice-personnelle.html"><span>Projet précédent</span><strong>La calculatrice du quotidien</strong></a>
+      <a href="limites-planetaires.html" style="text-align:right"><span>Projet suivant</span><strong>Passer du relatif à l'absolu</strong></a>
+    </nav>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>Clément Dalisson · mis à jour en septembre 2026</span>
+    <span><a href="https://github.com/ClementDalisson">GitHub</a> · <a href="https://clementdalisson.github.io/calculatrice-acv/">Calculatrice ACV</a></span>
+  </div>
+</footer>
+</body>
+</html>
