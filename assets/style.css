@@ -307,3 +307,8 @@ figcaption b { color: var(--ink); font-weight: 500; }
 
 /* largeur de lecture des figures d'ouverture */
 .figure-wide figure.fig { max-width: 820px; }
+
+/* Articles */
+.label.meta-col b { margin: 2px 0 14px; }
+.article-body h3 { font-size: 23px; }
+.article-body p.aside { border-top: 1px solid var(--rule); padding-top: 14px; }
