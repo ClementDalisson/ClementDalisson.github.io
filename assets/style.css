@@ -312,3 +312,8 @@ figcaption b { color: var(--ink); font-weight: 500; }
 .label.meta-col b { margin: 2px 0 14px; }
 .article-body h3 { font-size: 23px; }
 .article-body p.aside { border-top: 1px solid var(--rule); padding-top: 14px; }
+
+/* captures d'écran réelles */
+figure.fig img.shot { display: block; width: 100%; height: auto; border-radius: 4px; }
+.tag.ask { color: var(--ink-2); }
+.row > .prose, .row > ol { min-width: 0; }
