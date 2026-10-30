@@ -11,4 +11,6 @@ Site statique, sans build. Publié par GitHub Pages depuis la branche `main` du 
 
 Prisme est illustré par de vraies captures (profil tiré au hasard). Les figures des autres projets sont des fragments d'interface redessinés, sans valeur réelle. Le bilan organisation est présenté sur demande.
 
-Prisme est servi par son propre dépôt, [ClementDalisson/prisme](https://github.com/ClementDalisson/prisme), publié sur https://clementdalisson.github.io/prisme/. Les liens `prisme/` du site y mènent : ce dépôt ne contient pas de dossier `prisme/`.
+Les outils (Prisme, bilan organisation) ne sont pas publiés : ils sont présentés sur le site et montrés sur demande.
+
+Tout fichier de ce dépôt est servi publiquement par GitHub Pages, même sans lien : n'y mettre que du contenu publiable.
